@@ -12,3 +12,6 @@
 - column_descriptions.xlsx - опис колонок;
 - vodafone_age_subset.csv - датасет;
 - ua_regions.json - файл з координатами точок контуру областей України, який потрібен для створення об'єкту класу GeoDataFrame для створення Choropleth мапи в проєкті.
+
+<br /><br />
+**Результат у файлі EDA of Vodafone.ipynb** 

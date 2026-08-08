@@ -1,17 +1,21 @@
-Маємо датасет, зібраний компанією Vodafone Ukraine з метою визначення вікових груп абонентів.
-Наша мета — розвідувальний аналіз цих даних, визначення цінних інсайтів за допомогою простого статистичного аналізу, аналізу взаємозв’язків та візуалізації даних. Визначення вікових груп саме в цьому проєкті НЕ проводилось, так як це вже скоріше Data Science а не Data Analysis.
+We have a dataset collected by Vodafone Ukraine with the aim of identifying subscribers’ age groups. The goal of this project is to perform exploratory data analysis (EDA) and extract valuable insights using basic statistical analysis, relationship analysis, and data visualization. Identifying the age groups themselves was not performed in this project, as this task is more related to Data Science than Data Analysis.
 
-Коротка roadmap проекту:
-- Data Understanding. Розібратися із даними та поставленою задачею.
--	Data Cleaning. "Почистити" дані — прибрати якомога більше пропусків, виправити (за потреби) некоректні дані тощо.
--	Exploratory Data Analysis. Зробити розвідувальний аналіз — це описова статистика, кореляційний аналіз (аналіз взаємозв’язків), агрегації, зведені таблиці, візуалізація.
--	Reporting. Звіт про виконану роботу в Jupyter Notebook із кодом, графіками та поясненнями.
+### Project Roadmap
 
-***
-- Основний файл - EDA of Vodafone.ipynb, це файл jupyter notebook з Python кодом;
-- column_descriptions.xlsx - опис колонок;
-- vodafone_age_subset.csv - датасет;
-- ua_regions.json - файл з координатами точок контуру областей України, який потрібен для створення об'єкту класу GeoDataFrame для створення Choropleth мапи в проєкті.
+* **Data Understanding.** Understand the dataset and the business task.
+* **Data Cleaning.** Clean the data by handling missing values, correcting inaccurate data where necessary, and preparing the dataset for further analysis.
+* **Exploratory Data Analysis.** Perform descriptive statistics, correlation analysis, relationship analysis, aggregations, pivot tables, and data visualization.
+* **Reporting.** Document the analysis in a Jupyter Notebook containing the code, visualizations, and explanations.
 
-<br /><br />
-**Результат у файлі EDA of Vodafone.ipynb** 
+---
+
+### Project Files
+
+* **EDA of Vodafone.ipynb** — the main Jupyter Notebook containing the Python code and analysis.
+* **column_descriptions.xlsx** — description of the dataset columns.
+* **vodafone_age_subset.csv** — the dataset used for the analysis.
+* **ua_regions.json** — coordinates defining the boundaries of Ukrainian regions, used to create a `GeoDataFrame` and build a choropleth map.
+
+### Result
+
+The result is in **EDA of Vodafone.ipynb**.
